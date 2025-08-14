@@ -1,87 +1,82 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>C2 Human Factors – Coming Soon</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>C² Human Factors DRIVE — Charity Road Safety Sessions</title>
+  <meta name="description" content="Five charity Human Factors road safety sessions in Oxfordshire this Sept–Oct. 100% of ticket sales go to Save the Children." />
+  <link rel="icon" href="Correct C2 Human Factors LOGO.png" />
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-color: #021030; /* Navy */
-      color: #f0f0f0; /* Silver-ish */
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
+    :root{
+      --navy:#0b1736;
+      --red:#d71920;
+      --ink:#111;
+      --muted:#c8cddd;
+      --white:#ffffff;
     }
-    .container {
-      margin: auto;
-      width: 90%;
-      max-width: 600px;
-    }
-    img.logo {
-      max-width: 260px;
-      margin: 60px auto 20px;
-      display: block;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin: 20px 0 10px;
-    }
-    .subhead {
-      font-size: 1.25rem;
-      margin-bottom: 30px;
-    }
-    form {
-      margin-top: 30px;
-    }
-    input[type="text"], input[type="email"] {
-      padding: 10px;
-      width: calc(50% - 12px);
-      margin: 4px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 4px;
-    }
-    button {
-      padding: 10px 20px;
-      background-color: #daa520; /* Gold accent */
-      color: #021030;
-      border: none;
-      border-radius: 4px;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #c49e1d;
-    }
-    .footer {
-      margin-top: auto;
-      padding: 20px 0;
-      font-size: 0.9rem;
-      color: #bbb;
-    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;background:var(--navy);color:var(--white)}
+    header{padding:28px 16px;text-align:center;border-bottom:1px solid rgba(255,255,255,.08)}
+    header img{max-width:160px;height:auto;display:block;margin:0 auto 12px}
+    h1{margin:8px 0 6px;font-size:1.75rem}
+    .sub{opacity:.9;margin:0}
+    .wrap{max-width:980px;margin:0 auto;padding:24px 16px}
+    .hero{display:flex;justify-content:center;align-items:center;margin:18px 0}
+    .hero img{width:100%;max-width:900px;height:auto;border-radius:16px;box-shadow:0 8px 30px rgba(0,0,0,.35)}
+    .buttons{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:var(--red);color:var(--white)}
+    .btn-ghost{border:1px solid var(--muted);color:var(--white)}
+    section{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:18px 16px;margin:18px 0}
+    h2{margin:0 0 8px;font-size:1.25rem}
+    ul{margin:8px 0 0 18px}
+    footer{border-top:1px solid rgba(255,255,255,.08);padding:18px 12px;text-align:center;color:#d6d9e6;font-size:.95rem}
+    a{color:#fff}
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="c2-logo.jpeg" alt="C2 Human Factors Logo" class="logo">
-    <h1>C2 Human Factors</h1>
-    <p class="subhead">Aviation‑grade thinking for everyday safety.</p>
-    <p>Behavioural training tools inspired by the flight deck — coming soon for new drivers, educators, and safety professionals.</p>
+  <header>
+    <img src="Correct C2 Human Factors LOGO.png" alt="C² Human Factors logo" />
+    <h1>C² Human Factors DRIVE — Charity Road Safety Sessions</h1>
+    <p class="sub">Oxfordshire • September &amp; October • <strong>100% of ticket sales go to Save the Children</strong></p>
+    <div class="buttons">
+      <a class="btn btn-primary" href="https://www.justgiving.com/fundraising/2026tcslondonmarathon-zoecameron-casey" target="_blank" rel="noopener">Donate via JustGiving</a>
+      <!-- For now: opens an email to request a seat. Replace this href later with your Eventbrite/Google Form link -->
+      <a class="btn btn-ghost" href="mailto:info@c2humanfactors.com?subject=Book%20—%20Oxfordshire%20Charity%20Road%20Safety%20Session&body=Hi%20Zoe%2C%0A%0AI%E2%80%99d%20like%20to%20book%20a%20place.%20Here%20are%20my%20details%3A%0A%E2%80%A2%20Name%3A%0A%E2%80%A2%20Email%3A%0A%E2%80%A2%20Phone%3A%0A%E2%80%A2%20Preferred%20date(s)%3A%0A%E2%80%A2%20I%20have%20donated%20%C2%A3___%20to%20JustGiving%20(yes%2Fno)%3A%0A%0AThanks!" >
+        Book your place
+      </a>
+    </div>
+  </header>
 
-    <form>
-      <input type="text" placeholder="Your name" required>
-      <input type="email" placeholder="Your email" required>
-      <br>
-      <button type="submit">Be the first to know</button>
-    </form>
+  <div class="wrap">
+    <div class="hero">
+      <img src="Correct DRIVE LOGO on navy.png" alt="C² Human Factors DRIVE hero" />
+    </div>
+
+    <section>
+      <h2>What you’ll learn</h2>
+      <ul>
+        <li>Situational awareness &amp; anticipating risk</li>
+        <li>Decision‑making under pressure</li>
+        <li>Managing stress, startle, and impulse control</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>About the instructor</h2>
+      <p>Captain Zoe Cameron‑Casey — commercial airline pilot &amp; Human Factors instructor. Creator of C² Human Factors DRIVE.</p>
+    </section>
+
+    <section>
+      <h2>Dates &amp; Location</h2>
+      <p>Five in‑person sessions in Oxfordshire during September and October.<br>
+      <strong>All proceeds go to Save the Children.</strong></p>
+    </section>
   </div>
-  <div class="footer">
-    Contact us at <a href="mailto:info@c2humanfactors.com" style="color:#f0f0f0;">info@c2humanfactors.com</a>
-  </div>
+
+  <footer>
+    © C² Human Factors • Director: Captain Zoe Cameron‑Casey •
+    <a href="mailto:info@c2humanfactors.com">info@c2humanfactors.com</a>
+  </footer>
 </body>
 </html>
